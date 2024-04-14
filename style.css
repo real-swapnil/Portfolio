@@ -1,0 +1,216 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-heading{
+    color: gold;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    opacity: 80%;
+}
+
+.para{
+    color: aliceblue;
+    font-size: 50px;
+    opacity: 70%;
+}
+
+.header-personal
+{
+    height: 400px;
+    background-color: #353839;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.personal-Details{
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    background-color: aliceblue;
+    color: tomato;
+    font-size: 20px;
+    font-weight: 450;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 90%;
+}
+
+.objective{
+    background-color: #353839;
+    color: lightskyblue;
+    font-size: 20px;
+    position: sticky;
+    top: 10px;
+}
+.objective-para{
+    opacity: 80%;
+}
+
+
+/* body section */
+.edu-section-title{
+    height: 35px;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: aliceblue;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    color: #353839;
+}
+
+.educational-Details{
+    background-color: #353839;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    animation: myAnimation 2s linear 1s ease-in normal;
+}
+
+.highschool, .jrcollege, .graduation, .postgraduation{
+
+    height: 250px;
+    width: 350px;
+    background-color: tomato;
+    border: 5px solid #353839;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 450;
+    color: aliceblue;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 80%;
+}
+.Address-edu, .Year-edu, .Stateboard-edu{
+    font-size: 25px;
+    
+}
+.name-edu{
+    padding-bottom: 100px;
+    color: #353839;
+    
+
+}
+
+/* exp section */
+.exp-section-title{
+    height: 35px;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #353839;
+    opacity: 80%;
+    display: flex;
+    justify-content: center;
+    color: lightblue;
+}
+.exp-Details{
+    background-color: #353839;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.globalstep, .symtrax, .veradigm{
+    height: 300px;
+    width: 350px;
+    background-color: aliceblue;
+    border: 5px solid #353839;
+    border-radius: 10px;
+    font-size: 25px;
+    font-size: 450;
+    color: tomato;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 80%;
+}
+.name-exp{
+    padding-bottom: 70px;
+    color: #353839;
+    
+
+}
+
+/* Professional-summary */
+.professional-summary{
+    height: 500px;
+    background-color: #353839;
+    color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.professional-heading{
+    color: tomato;
+    font-size: 30px;
+    font-weight: 550;
+}
+/* Footer Section */
+
+#links-footer{
+    height: 40px;
+    width: 40px;
+    background-color: tomato;
+
+    border: 2px;
+    border-color: #353839;
+    border-style:double;
+    margin-right: 200px;
+    margin-left: 200px;
+    border-radius: 50%;
+    
+}
+
+.contactus-sec{
+    height: 100px;
+    background-color: #353839;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-links{
+    text-decoration: none;
+    color: aliceblue;
+}
+.footer-all{
+    height: 60px;
+    background-color:#353839;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    position: fixed;
+    bottom: 0px;
+}
+.linkedIn-footer, .youtube-footer, .x-footer{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes myAnimation
+{
+    from { transform : scale(1); }
+    to { transform : scale(1.1); }
+}
+
+.myHover :hover{
+    animation: myAnimation 2s 0.3s infinite normal;
+    /* transition: scale(1.3) 2s ease-in 1s; */
+    /* transition: font-size 2s ease-in 1s; */
+}
